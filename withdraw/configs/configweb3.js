@@ -13,3 +13,5 @@ const netkind = jnetkind[NETCLASS],
   nettype = jnettype[NETCLASS]; 
 let web3 = new Web3(new Web3.providers.HttpProvider(infuraurl));
 module.exports = { web3, netkind, nettype };
+
+//8545
